@@ -1,0 +1,23 @@
+{
+  "name": "jest-bug",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "exports": {
+    ".": {
+      "node": "./src/index_node.js",
+      "default": "./src/index_browser.js"
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "Nick Babcock",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
